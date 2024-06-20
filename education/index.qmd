@@ -1,0 +1,29 @@
+---
+title: Education
+---
+
+## University of Illinois, Urbana-Champaign, Illinois, USA
+
+**Ph.D. in Information Sciences** (Aug. 2023 - Present)
+
+  - **Advisor**: Dr. JooYoung Seo
+  - **Focusing** on utilizing immersive technologies and Generative AI to enhance accessibility for blind and visually impaired individuals.
+  - **Researching** methods for implementing multi-modal interfaces for Data Visualization Paradigms, improving accessibility for Blind and Visually Impaired Individuals.
+  - Achieved a GPA of **4.0/4.0** in the first two semesters of Doctoral Studies.
+
+**Masters in Library and Information Sciences** (Aug. 2023 - Present)
+ 
+  - **Courses** streamlined towards Data Science, Accessibility and Information Management.
+
+---
+
+## Manipal Academy of Higher Education - Dubai Campus, Dubai, UAE
+
+**B.Tech in Computer Science and Engineering - Graduated Summa Cum Laude** (Sept. 2019 - Jul. 2023)
+
+  - **Advisor**: Dr. Sophia Rahaman
+    - Undergraduate Thesis: *The Privacy Concerns of Older Adults when Interacting with Voice Agents within a Smart Home Environment – a Preliminary Scoping Analysis*.
+  - **Curated** a model for a Conversational Agent catering to the needs of Older Adults, and **provided** recommendations for modifying current systems to enhance Older Adult Engagement.
+  - **Addressed** privacy concerns of older adults in smart home environments, **emphasizing** user-friendly voice and touch interface prototypes.
+  - **Maintained** a high academic performance with GPA scores: 9.86, 9.91, 9.83, 9.67, 9.86, 9.5, 9.8, 10
+  - Graduated with a CGPA of **9.80/10**.

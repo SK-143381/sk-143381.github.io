@@ -1,0 +1,87 @@
+# This file controls the settings for your Quarto template from www.marvinschmitt.com
+
+# website settings
+website:
+  title: "Sanchita Kamath"    # Your name
+  description: "A driven and innovative Human-Computer Interaction (HCI) specialist with a robust academic background and practical experience in immersive technologies. Proven expertise in designing accessible technology solutions for the visually impaired, leveraging interdisciplinary research to enhance user experiences. Seeking opportunities to apply cutting-edge AI techniques and HCI methodologies to solve complex industry challenges and drive forward accessibility and inclusivity in software design."   # A brief slogan (optional)
+  image: img/my_image.png
+  
+  favicon: img/favicon.png
+  
+  # start of the navigation bar at the top of the website
+  navbar:
+    pinned: true
+    logo: /img/logo.png
+    
+    # your sub-pages
+    left:
+      - text: "Published Research"
+        href: academic_research/index.qmd
+      - text: "Research Experience"
+        href: r_experience/index.qmd
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "Education"
+        href: education/index.qmd
+      - text: "Industry Internships"
+        href: internship/index.qmd
+      - text: "Awards, Committees and Notable Competitions"
+        href: award/index.qmd
+    
+    # your social media handles
+    right:
+      - icon: folder-symlink
+        aria-label: portfolio
+        href: https://docs.google.com/presentation/d/1j8C6gLVQvAKObeQGem0BcRhAmz7c2Tq4vEHBcPaS2T0/edit?usp=sharing
+      - icon: linkedin
+        aria-label: linked-in
+        href: https://www.linkedin.com/in/sanchitakamath/
+      - icon: instagram
+        aria-label: instagram
+        href: https://www.instagram.com/sanchita_kamath/
+      - icon: envelope
+        aria-label: email
+        href: "mailto:mail.kamath.sanchita@gmail.com" 
+      - icon: file-earmark-person
+        aria-label: cv
+        href: https://drive.google.com/file/d/1gMu-2i8XK6m5SOE4ZXES5tF0Fa5fP8bE/view?usp=sharing
+  
+  
+
+# ------------
+  search: 
+    location: navbar
+    type: textbox
+  page-footer: 
+    left: |
+      <span class="faux-block">&#169; 2024 Sanchita Kamath</span>
+    center: |
+      <span class="faux-block"><a href="mailto:mail.kamath.sanchita@gmail.com">Contact Me!</a></span>
+    right: |
+      <span class="faux-block"><a href="https://github.com/SK-143381">View my GitHub</a></span>
+
+project:
+  type: website
+  output-dir: docs
+
+  preview: 
+    port: 22222
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: true
+
+format:
+  html:
+    fontsize: 1.1em
+    theme: 
+      - pulse
+      - html/styles.scss
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
