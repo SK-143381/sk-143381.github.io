@@ -1,0 +1,61 @@
+---
+title: "Autistic Education Study"
+format: 
+  html:
+    toc: true
+---
+
+![](img/project4.jpg){.project-img}
+
+**Educational Technology | Accessibility Research | User Studies**
+
+*March 2023 - June 2023*
+
+## Overview
+
+I created applications focused on fine motor skills development, ethics, and behavior learning for autistic children, enhancing their educational experience through technology.
+
+## Research & Development Methods
+
+### Comprehensive Research Foundation
+- Conducted a systematic literature review (SLR) on current methods employed for autistic learning
+- Analyzed existing educational technologies and their effectiveness for autistic children
+- Identified key gaps in current educational approaches for this specific user group
+
+### In-Depth User Research
+- Conducted interviews with autistic students to understand their unique learning processes
+- Observed classroom environments to identify pain points and opportunities
+- Engaged with educators and parents to gather multiple perspectives on learning needs
+- Used participatory design methods to include autistic children in the design process
+
+### Tailored Application Development
+- Created three specialized applications targeting different learning domains:
+  - Fine motor skills development through interactive touch-based activities
+  - Ethics learning through social scenario simulations and visual storytelling
+  - Behavior learning through reinforcement and gamified positive feedback
+- Implemented customizable difficulty levels to accommodate different abilities
+
+### Iterative Evaluation
+- Conducted usability testing sessions with autistic children
+- Gathered feedback from education specialists and therapists
+- Measured learning outcomes through pre- and post-intervention assessments
+- Refined applications based on observed usage patterns and explicit feedback
+
+## Impact
+
+This research project led to the development of educational tools specifically designed for autistic children, improving their learning outcomes and providing educators with more effective teaching resources.
+
+### Key Outcomes
+- 72% improvement in fine motor skills test scores after using the application for 8 weeks
+- Increased engagement time with educational content compared to traditional methods
+- Positive feedback from both users and educators regarding ease of use and effectiveness
+- Creation of a framework for developing future specialized educational applications
+
+## Future Directions
+
+- Expansion of the application suite to cover additional learning domains
+- Integration with classroom management systems for better progress tracking
+- Development of a machine learning component to adapt to individual learning patterns
+- Broader deployment in special education programs with ongoing effectiveness studies
+
+[← Back to Projects](projects.qmd)

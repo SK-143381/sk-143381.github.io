@@ -1,0 +1,126 @@
+---
+title: "Research 🔍"
+subtitle: "Academic Research & Mixed Methods Expertise"
+---
+
+## My Research Approach
+
+As a mixed-methods researcher in Human-Computer Interaction, I blend qualitative and quantitative methodologies to gain deeper insights into user behaviors, needs, and motivations. This approach allows me to triangulate findings, validate patterns, and produce more robust, actionable insights that drive inclusive technology design.
+
+::: {.grid .method-grid}
+::: {.g-col-12 .g-col-md-6 .method-card}
+### Qualitative Methods
+- In-depth interviews
+- Contextual inquiry
+- Ethnographic observation
+- Think-aloud usability testing
+- Focus groups
+- Diary studies
+- Systematic literature reviews
+:::
+
+::: {.g-col-12 .g-col-md-6 .method-card}
+### Quantitative Methods
+- Surveys and questionnaires
+- Statistical analysis
+- Analytics and data visualization
+- Eye-tracking
+- Task success metrics
+- Time-on-task measurements
+- Reinforcement learning algorithms
+:::
+:::
+
+## Academic Research
+
+My academic background informs my practical UX research approach. Below are key research publications that demonstrate my analytical capabilities and mixed-methods expertise.
+
+---
+
+### Designing Born‑Accessible Courses in Data Science and Visualization
+
+<div class="research-tag">Accessibility | Educational Technology | Mixed Methods</div>
+
+This research explored challenges and opportunities in creating accessible data science courses taught by blind instructors to blind students. I was responsible for transcript coding, initial visualizations, and conducting rudimentary thematic analysis, which were crucial in shaping the preliminary findings.
+
+<a href="https://arxiv.org/abs/2403.02568" target="_blank" class="btn btn-sm btn-outline-primary">View Publication</a>
+
+---
+
+### "Is that my reflection?" - An Affect‑Aware Intelligent Mirror
+
+<div class="research-tag">Emotion Recognition | Conversational AI | Mixed Methods</div>
+
+I originated the project idea and was solely responsible for writing the entire manuscript. I conceptualized and engineered the smart mirror, integrating a voice agent that pioneers mood analysis through emotion recognition and speech feature analysis using Python, JavaScript, and Node.js. I implemented a Recurrent Neural Network (RNN) model for speech analysis and a novel Reinforcement Learning with Human Feedback (RLHF) algorithm based on a Partially Observable Markov Decision Process (POMDP).
+
+<a href="#" class="btn btn-sm btn-outline-primary">Publication Pending</a>
+
+---
+
+### Blockchain Technology: A Solution to Address the Challenges Faced by International Travelers
+
+<div class="research-tag">Blockchain | Travel Technology | Framework Development</div>
+
+I was responsible for conceptualizing the NEM blockchain framework, identifying critical requirements and devising innovative solutions tailored to address the specific challenges encountered by international travelers. I independently conducted an extensive literature review, meticulously gathering, analyzing, and synthesizing existing research on blockchain technology and its applications in the travel industry. Additionally, I was in charge of the entire paper writing process.
+
+<a href="https://link.springer.com/article/10.1007/s12597-022-00597-x" target="_blank" class="btn btn-sm btn-outline-primary">View Publication</a>
+
+---
+
+### Technology as a Tool to Enhance Development of Skillset in Autistic Individuals
+
+<div class="research-tag">Accessibility | Educational Technology | Special Needs</div>
+
+I independently drafted the entire paper and conducted all associated research and analysis. I was responsible for the entire research design, interaction with dedicated autistic educators, and thematic categorization of key issues. My work included developing the COACH Model (Child-centered design, Opportunity, Accessibility, Content Modulation, Hone Skills) specifically designed to enhance the educational experience for autistic individuals.
+
+<a href="#" class="btn btn-sm btn-outline-primary">Publication Forthcoming</a>
+
+---
+
+### Contextualizing Privacy for Older Adults in Canada
+
+<div class="research-tag">Privacy Research | Voice Interfaces | Elderly Users</div>
+
+I conducted the literature review and thematic analysis while designing the Voice User Interface (VUI) and conversational interactions. I developed a conversational agent using Reinforcement Learning with Human Feedback (RLHF), specifically tailored to keep older adults motivated, autonomous, and self-engaged, providing critical insights into privacy concerns among this demographic.
+
+<a href="https://privaci.info/symposium5/papers/Work-in-ProgressPaper-ContextualizingPrivacfor%20OlderAdultsinCanadPaola%20Marmorato.pdf" target="_blank" class="btn btn-sm btn-outline-primary">View Publication</a>
+
+---
+
+### Self-Dependency Amelioration and Dignity Revival for South-East Asian Older Adults
+
+<div class="research-tag">Assistive Technology | Elderly Care | Social Engagement</div>
+
+I designed and administered surveys to 41 older adults, performed detailed quantitative analysis, and developed comprehensive visualizations. I created and coded the CALM Model, integrating strategies to facilitate a supportive environment, engage lifestyle activities, modify resources, and enable intercommunication for older adults, helping them feel more connected and autonomous.
+
+<a href="https://www.scitepress.org/Papers/2023/119579/119579.pdf" target="_blank" class="btn btn-sm btn-outline-primary">View Publication</a>
+
+---
+
+### Effectuating Communication for the Deaf and Hard-of-Hearing: An Ethnographic Review
+
+<div class="research-tag">Accessibility | Assistive Communication | Cross-cultural Analysis</div>
+
+I was solely responsible for drafting the entire manuscript, conducting an extensive literature review, and developing the idea of a cross-cultural review of handheld devices and technologies for Deaf and Hard-of-Hearing (DHH) individuals. I analyzed various recent technological advancements in assistive communication, focusing on computer vision and deep learning algorithms for sign language recognition and interpretation.
+
+<a href="https://ieeexplore.ieee.org/document/9990196" target="_blank" class="btn btn-sm btn-outline-primary">View Publication</a>
+
+---
+
+## Mixed Methods Framework
+
+My approach to UX research is guided by a comprehensive mixed-methods framework that ensures rigorous, insightful research outcomes, particularly for accessibility and assistive technology:
+
+### Framework Components
+
+1. **Problem Definition**: Clearly defining research questions that benefit from both qualitative and quantitative insights, especially for complex accessibility challenges
+
+2. **Methodological Planning**: Determining the optimal sequence and integration points for mixed methods based on user needs and accessibility considerations
+
+3. **Inclusive Data Collection**: Executing qualitative and quantitative research with diverse participants, including those with varying abilities and needs
+
+4. **Integrated Analysis**: Cross-analyzing findings from different methodologies to identify patterns and insights that inform accessible design solutions
+
+5. **Insight Synthesis**: Creating comprehensive research deliverables that blend statistical findings with rich user narratives representing diverse experiences
+
+6. **Impact Measurement**: Tracking both qualitative improvements (user satisfaction, accessibility) and quantitative metrics (task completion rates, assistive technology effectiveness)
