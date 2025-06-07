@@ -1,0 +1,39 @@
+---
+title: Research Experience
+---
+
+# (x)Ability Lab, University of Illinois, Urbana-Champaign, USA
+
+**Research Assistant** (Aug. 2023 - Present) <br>
+
+  - **Managed** the MAIDR Project as a Project Manager and Human-Computer Interaction Researcher, conducting user testing to conduct in-depth user research, integrating Large Language Models to explain STEM-related graphs to Blind and Low Vision Individuals, enhancing accessibility in education.
+  - **Led** the development of an innovative VR table-tennis game on the Unity Engine, tailored for low-vision individuals, revolutionizing sports training through inclusive technology, allowing them to play a immersive game.
+  - **Designed** the interface for the Personalized Conversational Health Agent (PCHA), an accessible health agent powered by GPT-4, and participated in internal testing and debugging, addressing potential database-related issues to ensure smooth operation.
+
+
+## Technologies for Ageing Gracefully Lab, University of Waterloo, Ontario, Canada
+**Student Researcher** (Feb. 2023 - Jul. 2023) <br>
+
+  - **Explored** the privacy concerns of older adults in smart home environments, focusing on voice-controlled agent interactions, improving user trust and acceptance of smart technologies.
+  - **Devised** strategies to mitigate technological anxiety among older adults, creating user-friendly voice and touch interface prototypes, enhancing user experience and adoption.
+  - **Performed** an extensive review of the technological landscape of VUIs, assessing market trends and advancements, informing the development of user-centric VUI designs.
+  - **Produced** the layout of a responsive conversational agent (VUI) catered to older adults' needs, increasing accessibility and usability through HCI research methods.
+
+## Manipal Academy of Higher Education - Dubai Campus, Dubai, UAE
+**Teaching Assistant** (Apr. 2022 - Feb. 2023) <br>
+
+  - **Conducted** Problem-Solving Using Computers (PSUC) Course Lab for 46 students, improving practical computing skills.
+  - **Assisted** in MTech Thesis Projects on blockchain applications in the donation and construction industries, enhancing transparency and efficiency.
+
+## OpenUAE Research Group, University of Sharjah, UAE
+**Reinforcement Learning Research Intern** (Jul. 2022 - Sep. 2022) <br>
+
+  - **Executed** a Systematic Literature Review on Digital Twins in aviation, presenting findings to the UAE General Civil Aviation Authority, guiding their digital integration strategies.
+  - **Innovated** a trading algorithm using Reinforcement Learning for automating FOREX trading (through Japanese Candle-sticks data), optimizing decision-making processes, improving trading efficiency by 17%.
+
+## Pucho Inc., Remote - based in Delhi, India
+**UX Researcher** (Jul. 2021 - Sep. 2021) <br>
+
+  - **Performed** qualitative persona creation for the financially disadvantaged demographic, providing valuable insights for user-centric design.
+  - **Led** the interface design for overcoming language barriers in pan-India trials, emphasizing inclusivity and accessibility, specifically for the Blind and Visually Impaired (BVI) community, increasing engagement by 31%.
+  - **Storyboarded** user experiences to understand accurate health information transmission during the COVID-19 pandemic, improving public health communications allowing reduced misinformation. 45 out of 100 participants of the beta-trial reported better understanding of protocols and resources.

@@ -1,170 +1,37 @@
 ---
-format: 
-  html:
-    page-layout: full
-    css: styles.css
+about:
+  template: jolla
+  id: about-block
+  image: "img/my_image.png"
+  links:
+    - icon: folder-symlink
+      aria-label: portfolio
+      href: https://docs.google.com/presentation/d/1j8C6gLVQvAKObeQGem0BcRhAmz7c2Tq4vEHBcPaS2T0/edit?usp=sharing
+    - icon: linkedin
+      aria-label: linked-in
+      href: https://www.linkedin.com/in/sanchitakamath/
+    - icon: instagram
+      aria-label: instagram
+      href: https://www.instagram.com/sanchita_kamath/
+    - icon: envelope
+      aria-label: email
+      href: "mailto:mail.kamath.sanchita@gmail.com"  
 ---
 
-<style>
-/* Social links styling */
-.social-links {
-  display: flex;
-  align-items: center;
-  margin-top: 2.5rem;
-}
-
-.social-links a {
-  margin-right: 1.5rem;
-  color: #666;
-  transition: color 0.3s ease;
-  position: relative;
-}
-
-.social-links a:hover {
-  color: #6172e3;
-}
-
-/* Tooltip styling for all elements with title attributes */
-a[title] {
-  position: relative;
-}
-
-a[title]::before {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  border-width: 5px;
-  border-style: solid;
-  border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
-  margin-bottom: 6px;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 100;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-  pointer-events: none;
-}
-
-a[title]::after {
-  content: attr(title);
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  background: rgba(0, 0, 0, 0.8);
-  color: white;
-  text-align: center;
-  padding: 5px 10px;
-  border-radius: 3px;
-  font-size: 0.75rem;
-  white-space: nowrap;
-  margin-bottom: 11px;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 100;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-  pointer-events: none;
-}
-
-a[title]:hover::before,
-a[title]:hover::after {
-  opacity: 1;
-  visibility: visible;
-}
-
-/* Resume link styling */
-.resume-link {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 8px 20px;
-  background-color: #5663d3;
-  color: white !important;
-  border-radius: 50px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.9rem;
-  font-weight: 600;
-  text-decoration: none;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: background-color 0.3s;
-  position: relative;
-}
-
-.resume-link:hover {
-  background-color: #4a56c2;
-}
-</style>
-</style>
-
-::: {.grid}
-::: {.g-col-12 .g-col-md-6 .header-text}
-# Hello, I'm {.greeting}
-
-## Sanchita Kamath {.name}
-
-<p class="highlight-text">
-UX Researcher and Ph.D. Candidate in Information Sciences at the University of Illinois at Urbana-Champaign advancing the field of human-computer interaction through methodological innovation. I transform complex human behavior patterns into evidence-based design frameworks that influence both academic discourse and industry practice.
-</p>
-
+::: {#about-block}
 :::
 
-::: {.g-col-12 .g-col-md-6 .profile-image}
-![](img/about-potrait.jpg)
-:::
-:::
+---
 
-## Featured Work {.section-heading}
+## About Me
 
-::: {.grid .project-grid}
-::: {.g-col-12 .g-col-md-4 .project-card}
-![](img/maidrbanner.jpg){.img-fluid}
-<div class="project-content">
-### MAIDR: Multimodal Data Access
-<div class="project-tags">
-  <span class="project-tag">Accessibility</span>
-  <span class="project-tag">Mixed Methods</span>
-</div>
-<div class="expertise-content">
-Conducted multi-phase research on how Blind and Low Vision (BLV) users engage with data through AI descriptions and multimodal interfaces. Independently created an accessible dashboard to facilitate easu user interaction.
-</div>
-<a href="casestudies.qmd#tripbot" style="display:inline-flex; align-items:center; font-family:'Open Sans',sans-serif; font-size:0.95rem; font-weight:500; color:#6172e3; text-decoration:none; transition:all 0.3s ease;" class="view-project-btn animated-link" title="Read about MAIDR: Multimodal Data Access in detail">View Case Study <i class="bi bi-arrow-right" style="margin-left:6px;"></i></a>
-</div>
-:::
+I am Sanchita Kamath, a dedicated Human-Computer Interaction specialist and researcher. Over the years, I have focused on enhancing accessibility and inclusivity through innovative technological solutions. On this website, I offer a glimpse into my extensive body of work, ongoing research, and publications.
 
-::: {.g-col-12 .g-col-md-4 .project-card}
-![](img/vrbanner.jpg){.img-fluid}
-<div class="project-content">
-### Accessible VR Exergames
-<div class="project-tags">
-  <span class="project-tag">Virtual Reality</span>
-  <span class="project-tag">Accessibility</span>
-</div>
-<div class="expertise-content">
-Led participatory design research to create autonomous, enjoyable VR sports games for BLV users by promoting physical activity; thereby enhancing quality of life. Conceptualized alternative modality frameworks to employ spatial audio and haptic feedback for interaction.
-</div>
-<a href="casestudies.qmd#voice-agent" style="display:inline-flex; align-items:center; font-family:'Open Sans',sans-serif; font-size:0.95rem; font-weight:500; color:#6172e3; text-decoration:none; transition:all 0.3s ease;" class="view-project-btn animated-link" title="Read about Accessible VR Exergames in detail">View Case Study <i class="bi bi-arrow-right" style="margin-left:6px;"></i></a>
-</div>
-:::
+My research interests span various aspects of Human-Computer Interaction, with a particular emphasis on creating accessible technologies for individuals with disabilities. I am passionate about designing and implementing immersive technologies to aid the blind and visually impaired, and I have made significant contributions in this field. My studies also cover user experience design, privacy concerns in smart environments, and the development of inclusive user interfaces.
 
-::: {.g-col-12 .g-col-md-4 .project-card}
-![](img/clearmindsbanner.jpg){.img-fluid}
-<div class="project-content">
-### ClearMinds: Mental Health UX
-<div class="project-tags">
-  <span class="project-tag">Mental Health</span>
-  <span class="project-tag">User Research</span>
-</div>
-<div class="expertise-content">
-Developed a mental health platform centered on trust and emotional awareness, balancing structured progress tracking with personalized flexibility for individuals during the 2020 pandemic.
-</div>
-<a href="casestudies.qmd#autistic-education" style="display:inline-flex; align-items:center; font-family:'Open Sans',sans-serif; font-size:0.95rem; font-weight:500; color:#6172e3; text-decoration:none; transition:all 0.3s ease;" class="view-project-btn animated-link" title="Read about ClearMinds: Mental Health UX in detail">View Case Study <i class="bi bi-arrow-right" style="margin-left:6px;"></i></a>
-</div>
-:::
-:::
+Not only am I a researcher, but I am also a mentor and educator. I have had the honor of guiding many students and young professionals in Design Thinking and Software Development. My teaching style is engaging and accessible, encouraging students to think critically and creatively about the challenges and opportunities in technology design.
 
-<div class="view-all-projects">
-  <a href="projects.qmd" style="display:inline-flex; align-items:center; font-family:'Open Sans',sans-serif; font-size:1.1rem; font-weight:500; color:#6172e3; text-decoration:none; transition:all 0.3s ease;" class="hover-lift" title="Browse my complete portfolio of work">View Other Projects<i class="bi bi-arrow-right" style="margin-left:6px;"></i></a>
-</div>
+On this website, you will find a selection of my published works, including scholarly articles, conference papers, and projects. You will also find news and updates on my current research projects, as well as information on upcoming events and conferences where I will be presenting. I invite you to explore my website and learn more about my work and contributions to the field of Human-Computer Interaction.
 
+Please feel free to [contact me](mailto:kamath.sanchita@gmail.com) if you have any questions or would like to discuss potential projects.
 
