@@ -1,9 +1,328 @@
 ---
-title: "About"
+title: "About Me"
+format: 
+  html:
+    css: styles.css
 ---
 
-About this site
+<style>
+.about-section {
+  margin-bottom: 3rem;
+}
 
-```{r}
-1 + 1
-```
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .intro-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.intro-image {
+  flex: 0 0 auto;
+  max-width: 100%;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-md);
+  transition: var(--transition-fast);
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .intro-image {
+    max-width: 280px;
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
+}
+
+.intro-image:hover {
+  transform: scale(1.02);
+  box-shadow: var(--shadow-lg);
+}
+
+.intro-text {
+  flex: 1;
+}
+
+.intro-text h2 {
+  margin-top: 0;
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.highlight-banner {
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(97, 114, 227, 0.08), rgba(176, 106, 179, 0.08));
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-sm);
+  border-left: 5px solid var(--primary-color);
+}
+
+.value-prop {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #1a202c;
+}
+
+.skills-card {
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+  height: 100%;
+  transition: var(--transition-fast);
+}
+
+.skills-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+}
+
+.skills-card h3 {
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(97, 114, 227, 0.2);
+}
+
+.skills-card ul {
+  padding-left: 1.2rem;
+  margin-bottom: 0;
+}
+
+.skills-card li {
+  margin-bottom: 0.5rem;
+}
+
+.education-item {
+  margin-bottom: 1.8rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--medium-gray);
+}
+
+.education-item:last-child {
+  border-bottom: none;
+}
+
+.education-item h3 {
+  margin-bottom: 0.3rem;
+  font-size: 1.3rem;
+}
+
+.education-item strong {
+  color: var(--dark-gray);
+  font-weight: 600;
+}
+
+.education-item em {
+  display: block;
+  margin-bottom: 0.7rem;
+  color: var(--primary-color);
+}
+
+.education-details {
+  margin-top: 0.7rem;
+  font-size: 0.95rem;
+}
+
+.cert-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.cert-badge {
+  padding: 0.8rem 1.2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+  display: inline-flex;
+  align-items: center;
+  font-weight: 500;
+  transition: var(--transition-fast);
+}
+
+.cert-badge:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.cert-badge i {
+  margin-right: 0.5rem;
+  color: var(--primary-color);
+}
+
+.cta-section {
+  margin-top: 3rem;
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(97, 114, 227, 0.05), rgba(176, 106, 179, 0.05));
+  border-radius: var(--border-radius);
+}
+
+.cta-section h2 {
+  margin-top: 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.7rem 1.2rem;
+  background-color: white;
+  border-radius: 50px;
+  color: var(--text-color);
+  font-weight: 500;
+  text-decoration: none;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition-fast);
+}
+
+.social-links a:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  color: var(--primary-color);
+}
+
+.social-links a i {
+  margin-right: 0.5rem;
+}
+</style>
+
+::: {.intro-container}
+![Sanchita Kamath, UX Researcher](img/about-potrait.jpg){.intro-image}
+
+::: {.intro-text}
+## Strategic UX Researcher & HCI Specialist
+
+::: {.highlight-banner}
+::: {.value-prop}
+I transform complex user behavior into actionable insights that drive product innovation and business growth.
+:::
+:::
+
+As a UX researcher pursuing a Ph.D. in Information Sciences with a focus on Human-Computer Interaction, I bring both academic depth and practical methodology to solving complex user experience challenges. My research has consistently delivered measurable improvements in user engagement, task success rates, and product adoption.
+
+What distinguishes my approach is the seamless integration of rigorous data analysis with deep user empathy, allowing me to uncover insights that quantitative methods alone might miss. I excel at translating these findings into clear, prioritized recommendations that development teams can implement immediately.
+:::
+:::
+
+## Core Competencies
+
+::: {.grid .skills-grid}
+::: {.g-col-12 .g-col-md-4 .skills-card}
+### Research Strategy
+- Designing comprehensive research plans aligned with business objectives
+- Mapping research questions to appropriate methodologies
+- Reducing research debt through systemic knowledge management
+- Forecasting user behavior trends using mixed-method approaches
+- Balancing immediate insights with long-term research goals
+:::
+
+::: {.g-col-12 .g-col-md-4 .skills-card}
+### Methodological Expertise
+- Moderated user interviews & usability testing
+- Longitudinal studies & diary research
+- Advanced survey design with statistical validation
+- A/B testing design & implementation
+- Multi-modal accessibility research
+- Quantitative analysis (Python, R)
+- Journey mapping & experience modeling
+:::
+
+::: {.g-col-12 .g-col-md-4 .skills-card}
+### Research Impact
+- Stakeholder alignment & expectation management
+- Executive-ready research presentations
+- Cross-functional team collaboration
+- Research democratization & team workshops
+- Translation of findings into design requirements
+- Measurable ROI tracking for research initiatives
+- International research coordination
+:::
+:::
+
+## Technical Skills
+
+::: {.about-section}
+- **Research Tools:** UserTesting, UserZoom, Optimal Workshop, Lookback, dscout, SurveyMonkey, Qualtrics
+- **Analysis Software:** R, Python (pandas, scikit-learn), SPSS, NVivo, ATLAS.ti
+- **Visualization & Prototyping:** Figma, Miro, MAXQDA, Tableau, Power BI
+- **Programming:** HTML/CSS, JavaScript (basic), SQL, R Markdown
+- **Collaboration:** JIRA, Confluence, Notion, AirTable, Mural
+:::
+
+## Education
+
+::: {.about-section}
+::: {.education-item}
+### Ph.D. in Information Sciences
+**University of Illinois at Urbana-Champaign**  
+*2023-2028 (expected)*
+
+::: {.education-details}
+Specializing in Human-Computer Interaction with a focus on cognitive modeling and AI-enhanced user interactions. My dissertation explores how sense-making strategies can improve AI interpretability and usability.
+:::
+:::
+
+::: {.education-item}
+### Master of Science in Information Sciences
+**University of Illinois at Urbana-Champaign**  
+*2023-2024*
+
+::: {.education-details}
+Coursework in advanced research methods, HCI theory, and information architecture.
+:::
+:::
+
+::: {.education-item}
+### Bachelor of Science in Computer Science
+**Manipal Academy of Higher Education - Dubai Campus**  
+*2019-2023*
+
+::: {.education-details}
+Minor in Data Analytics. Thesis research examined privacy concerns of older adults when interacting with voice agents in smart home environments, combining ethnographic methods with quantitative privacy measurement.
+:::
+:::
+:::
+
+## Professional Certifications
+
+::: {.about-section .cert-item}
+::: {.cert-badge}
+<i class="bi bi-award-fill"></i>Interaction Design Foundation Advanced Learner (2021)
+:::
+::: {.cert-badge}
+<i class="bi bi-layout-text-window"></i>Google UX Design Professional Certificate (2020)
+:::
+:::
+
+::: {.cta-section}
+## Let's Create User-Centered Experiences Together
+
+I'm currently exploring research opportunities where I can apply my expertise in mixed-methods research and cognitive modeling to solve complex UX challenges and drive product innovation.
+
+::: {.social-links}
+[<i class="bi bi-linkedin"></i>LinkedIn](https://www.linkedin.com/in/sanchitakamath/){target="_blank"}
+[<i class="bi bi-envelope-fill"></i>Email Me](mailto:mail.kamath.sanchita@gmail.com)
+[<i class="bi bi-file-earmark-text-fill"></i>Download CV](materials/cv.pdf){target="_blank"}
+:::
+:::
